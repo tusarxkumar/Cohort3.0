@@ -33,11 +33,17 @@ div{
     border-radius: 32px;
     font-weight: 600;
     color: #9ba3b4;
+    background-color: rgba(255, 255, 255, 0.04);
 }
 .version{
     font-size: 14px;
     color: #9d9d9d;
     margin-bottom: 50px;
+}
+.search-container input{
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
 #links{
     color: #4daafc;
@@ -45,14 +51,22 @@ div{
 }
 #btn1{
     background-color: #0078d4;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
 }
+
 #btn2{
     background-color: #0078d4;
-    padding: 10px;
-    font-size: 20px;
+    padding: 12px;
+    font-size: 18px;
     color: white;
     border-radius: 5px;
     outline: none;
+    font-weight: 600;
+
 }
 
 #vs{
@@ -67,8 +81,11 @@ div{
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-    margin-top: 15px;
+    margin-top: 30px;
     
+}
+#main .hero-sec{
+    margin-top: 70px;
 }
 #main h1{
     font-size: 60px;
