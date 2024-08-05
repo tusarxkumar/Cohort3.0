@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+#navbar .nav-items a {
+    text-decoration: none;
+    color: #666;
+    padding: 20px;
+    font-size: 16px;
+}
+#navbar .nav-items a:hover{
+    color: #387ed1;
+}
+
+#navbar .nav-items i {
+    position: absolute;
+    padding-left: 18px;
+    font-size: 20px;
+}
+
+#image-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#image-main img {
+    max-width: 60%;
+    margin-bottom: 40px;
+}
+
+/* .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.main-content .heading1 h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: 500;
+    color: #424242;
+}
+.main-content .heading2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn div{   
+    background-color: #387ed1;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+}
+.btn div:hover{
+    background-color: #323131;
+}
